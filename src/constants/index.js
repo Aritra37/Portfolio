@@ -15,13 +15,11 @@ import {
   git,
   figma,
   docker,
-  meta,
   iot,
   flipr,
-  carrent,
-  jobit,
-  tripguide,
+  educon,
   threejs,
+  podstream,
 } from "../assets";
 
 export const navLinks = [
@@ -132,7 +130,7 @@ const experiences = [
     company_name: "Flipr",
     icon: flipr,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2023- July 2023",
     points: [
       "Full Stack Web Development project where employers can keep a check on their employees work done every particular day.Purpose of Tracker.Employees at businesses and technical institutes set aside a significant amount of time, either in the workplace or at home, to prepare their daily, weekly, and other records. Using Tracker, employees and management may quickly create records since they have access to the information at their fingertips"
       ,
@@ -140,59 +138,11 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
-    name: "Car Rent",
+    name: "Educon",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for homework,assignments,tasks for kiit university first year.",
     tags: [
       {
         name: "react",
@@ -207,11 +157,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: educon,
+    source_code_link: "https://github.com/Aritra37/GDSC_DEVSPRINT_Educon",
   },
   {
-    name: "Trip Guide",
+    name: "Podstream",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -228,9 +178,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: podstream,
+    source_code_link: "https://github.com/Aritra37/Podstream",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
